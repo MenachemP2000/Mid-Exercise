@@ -1,0 +1,20 @@
+html body{
+    margin: 0;
+}
+header{
+    background: url(header_bg.png);
+    top: 0px;
+    height: 105px;
+
+}
+footer{
+    bottom: 0px;
+    background: url(footer_bg.png);
+    height: 38px;
+    display: block;
+    position: sticky;
+
+}
+main{
+    height:611px;
+}
