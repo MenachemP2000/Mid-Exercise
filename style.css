@@ -3,7 +3,6 @@ html body{
     display: flex;
     flex-direction: column;
     direction: rtl;
-    background-color: violet;
 }
 header{
     width: 100%;
@@ -20,6 +19,7 @@ footer{
     width: 100%;
     display: flex;
     position: fixed;
+    justify-content: center;
 
 
 }
@@ -146,4 +146,30 @@ a:hover , #changeLanguage:hover{
 }
 nav> ul >li >ul >li:hover{
     background: silver;
+}
+#footerMenu > ul{
+    display: flex;
+}
+#footerMenu{
+    position: relative;
+    left: 40px;
+    top: 15px;
+    
+}
+#footerMenu > ul >li{
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.line{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+}
+#redColor{
+    color: red !important;
 }
