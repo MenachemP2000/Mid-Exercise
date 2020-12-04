@@ -23,8 +23,6 @@ footer{
 
 
 }
-main{
-}
 #headerMenu{
     text-align: center;
     display: flex;
@@ -38,15 +36,6 @@ main{
     display: flex;
     align-content: space-between;
 
-}
-li{
-    display: flex;
-    list-style: none;
-}
-#headerList >li{
-    display: flex;
-    list-style: none;
-    margin-left: 35px;
 }
 #headerImg{
     position: relative;
@@ -90,9 +79,6 @@ form{
     font-size: 12px;
     font-weight: bold;
 }
-li > ul{
-    display: none;
-}
 #search_button{
     position: relative;
     right: 331px;
@@ -104,14 +90,60 @@ a{
     font-family: arial;
 
 }
-#headerList>li:not(:last-child)::after{
-    content: url(menu_sep.png);
+
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul {margin:0; list-style: none; position: relative;}
+nav ul li { float:left; list-style: none;}
+nav ul li a { display:block;}
+nav ul ul { display: none; position: absolute;}
+nav ul li:hover > ul { display:flex; flex-direction: column;}
+nav ul ul li {float:none; position: relative; }
+nav ul ul ul li {
+position: absolute relative;
+top:-58px;
+left:170px;
+}
+nav> ul >li{
     position: relative;
-    right: 15px;
+    margin-left: 15px;
+    padding-bottom: 17px;
+}
+nav >ul{
+    position: relative;
+}
+li{
+    
+    list-style: none;
+}
+nav> ul >li >ul {
+    margin-top: 20px;
+    text-align: right;
+    width: max-content;
+
+
 }
 
-nav ul li:hover > ul { 
-    list-style: none;
-    display:flex;
-    flex-direction: column;
+nav> ul >li >ul >li {
+    background: url(menu_dropdown_bg.png);
+    position: relative;
+    left: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: silver solid 1px;
+
+}
+a:hover , #changeLanguage:hover{
+    text-decoration: underline;
+    color: #005CA0;
+
+}
+nav> ul >li >ul >li:hover{
+    background: silver;
 }
