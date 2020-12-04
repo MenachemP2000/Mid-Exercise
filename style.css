@@ -173,3 +173,6 @@ nav> ul >li >ul >li:hover{
 #redColor{
     color: red !important;
 }
+#redColor:hover{
+    color: #005CA0 !important;
+}
