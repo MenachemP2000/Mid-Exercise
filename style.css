@@ -60,7 +60,7 @@ footer{
     justify-content: center;
     align-items: flex-end;
 }
-form{
+header form{
     position: relative;
     right: 330px;
     top: 15px;
@@ -325,24 +325,23 @@ a{
     display: flex;
     flex-direction: row;
     align-self: center;
-    background-color: red;
     height: 458px;
     width: 900px;
     box-sizing: border-box;
     justify-content: center;
     padding-top: 32px;
 }
-#center{
-    width: 50%;
-}
 #leftBoxes{
     width: 40%;
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 30px;
 
 }
-#sidebar>ul{
-    list-style: none;
+#sideBar{
+    position: relative;
+    right: 25px;
 }
 #sideBar >ul>li{
     box-sizing: border-box;
@@ -411,4 +410,112 @@ a{
 }
 .contactBox>a:hover{
     color: #005CA0;
+}
+#center{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -25px;
+}
+
+#centerBox{
+    display: flex;
+    flex-direction: column;
+    background: url(contact_form_bg.png);
+    width: 372px;
+    height: 357px;
+    box-sizing: border-box;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-family: arial;
+    position: relative;
+    right: 5px;
+    margin-top: 23px;
+    border-top-right-radius: 20px;
+    border: rgb(204,204,204) 1px solid;
+
+}
+#center li:first-child::after{
+    content: ' \003E ';
+
+}
+#center li{
+    display: inline;
+}
+#title{
+    border-bottom: #6d6d6d solid 1px;
+    width: 440px;
+    position: relative;
+    font-size: 15px;
+    font-family: arial;
+    color: #6d6d6d;
+    font-weight: 700;
+}
+#topLi{
+    position: relative;
+    right: -40px;
+    bottom: 15px;
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-family: arial;
+    
+}
+#homePage{
+    color: rgb(87, 87, 87);
+
+}
+#homePage:hover{
+    color: #005CA0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-left: 70px;
+
+}
+textarea{
+    height: 100px;
+}
+form >div {
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+.field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#centerBox> p{
+    margin-right: 20px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+
+}
+#disclaimer{
+    font-size: 12px;
+}
+#formDesc{
+    font-size: 13px;
+    font-weight: bold;
+}
+#formTitle{
+    font-size: 15px;
+    font-weight: 700;
+    color: #005CA0;
+}
+button{
+    background: url(button_blue.png);
+    width: fit-content;
+    position: relative;
+    left: -190px;
+    top: 5px;
+    color: white;
+    
+}
+button:hover{
+    color: blue;
+    background: url(button_yellow.png);
+    cursor: pointer;
 }
