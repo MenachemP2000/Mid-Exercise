@@ -321,3 +321,25 @@ main{
 a{
     width: fit-content;
 }
+#contactMain{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: red;
+    height: 458px;
+    width: 900px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+#sideBar>a{
+    background:url(side_menu_sprite.png);
+    width: 122px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+#center{
+    width: 50%;
+}
+#leftBoxes{
+    width: 40%
+}
