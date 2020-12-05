@@ -176,3 +176,81 @@ nav> ul >li >ul >li:hover{
 #redColor:hover{
     color: #005CA0 !important;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+#topMain{
+    display: flex;
+    margin-top: 34px;
+}
+
+#bottomMain{
+    display: flex;
+}
+#secondPic{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.topPictures{
+    border-bottom-right-radius: 20px;
+    display: flex;
+}
+.PicDisc{
+    margin-right: 7px;
+    margin-left: 20px;
+    margin-bottom: -25px;
+}
+#topMain> div{
+    display: flex;
+    flex-direction: column;
+}
+.PicTitle{
+    margin-bottom: -0.5em;
+    font-weight: bold;
+    margin-right: 7px;
+}
+.PicText{
+    color: white;
+    background-color:  rgba(128,128,128, 0.85);
+    width: 248px;
+    font-family: arial;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 120px;
+
+}
+.more{
+    text-decoration: underline;
+    position: relative;
+    right: 180px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 10px;
+}
+.morePic{
+    position: relative;
+    right: 5px;
+
+}
+.morePicBlue{
+    position: relative;
+    right: 5px;
+    display: none;
+
+}
+.more:hover > .morePic{
+    display: none;
+
+}
+.more:hover > .morePicBlue{
+    display: inline;
+
+}
+#secondPicText{
+    position: relative;
+    right: 20px;
+}
