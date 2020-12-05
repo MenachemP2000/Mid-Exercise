@@ -179,14 +179,21 @@ nav> ul >li >ul >li:hover{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 #topMain{
     display: flex;
     margin-top: 34px;
+    justify-content: center;
 }
 
 #bottomMain{
     display: flex;
+    justify-content: center;
+    margin-top: -95px;
+    margin-bottom: 68px;
+    font-family: arial;
+
 }
 #secondPic{
     margin-left: 12px;
@@ -226,10 +233,10 @@ main{
 .more{
     text-decoration: underline;
     position: relative;
-    right: 180px;
     margin-bottom: 0px;
     margin-top: 0px;
     top: 10px;
+    right: 180px;
 }
 .morePic{
     position: relative;
@@ -254,3 +261,61 @@ main{
     position: relative;
     right: 20px;
 }
+.bottomDivs{
+    display: flex;
+    flex-direction: column;
+    background: url(small_cube_bg.png);
+    width: 292px;
+    height: 216px;
+    box-sizing: border-box;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: rgb(87, 87, 87);
+}
+.bottomDivTitles{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bottomDivs> img{
+    align-self: center;
+}
+.bottomDivs >.more{
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+    top: 20px;
+}
+.secondBottomTitle{
+    text-align: right;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bottomDivs>div{
+    display: flex;
+    flex-direction: row;
+}
+.bottomDivs>div>div{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+.bottomDivs>div>div>a{
+    
+    font-size: 13px;
+    color: rgb(87, 87, 87) !important;
+    text-decoration: underline;
+}
+
+.more:hover{
+    color:#005CA0 !important;
+}
+#directions{
+    position: relative;
+    left: 150px;
+}
+#directions >a{
+    margin-bottom: 6px;
+
+}
+
