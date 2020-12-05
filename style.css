@@ -468,7 +468,7 @@ a{
 #homePage:hover{
     color: #005CA0;
 }
-form{
+#centerBox form {
     display: flex;
     flex-direction: column;
     margin-right: 70px;
