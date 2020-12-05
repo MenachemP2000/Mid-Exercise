@@ -232,11 +232,14 @@ main{
 }
 .more{
     text-decoration: underline;
-    position: relative;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+.more{
+    position: relative;
     top: 10px;
     right: 180px;
+
 }
 .morePic{
     position: relative;
@@ -311,11 +314,10 @@ main{
     color:#005CA0 !important;
 }
 #directions{
-    position: relative;
-    left: 150px;
-}
-#directions >a{
-    margin-bottom: 6px;
 
+    margin-right: -150px;
+    margin-left: 150px;
 }
-
+a{
+    width: fit-content;
+}
