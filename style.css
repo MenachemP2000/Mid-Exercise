@@ -330,6 +330,7 @@ a{
     width: 900px;
     box-sizing: border-box;
     justify-content: center;
+    padding-top: 32px;
 }
 #center{
     width: 50%;
@@ -349,7 +350,7 @@ a{
     height: 36px;
     position: relative;
     left: 12px;
-    top: 10px;
+    top: -10px;
 
 }
 #sideBar>ul>li>a{
@@ -370,9 +371,13 @@ a{
     width: 292px;
     height: 175px;
     box-sizing: border-box;
-    margin-right: 6px;
-    margin-left: 6px;
-    color: rgb(87, 87, 87);
+    margin-right: 69px;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-family: arial;
+    position: relative;
+    top: 30px;
+    margin-top: 23px;
 
 }
 #linkToContant{
@@ -380,4 +385,30 @@ a{
     top: 8px;
     right: 12px;
 }
+.contactBoxTitle{
+    font-family: arial;
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
 
+}
+.contactBox>p , .contactBox>a{
+    
+    position: relative;
+    bottom: 5px;
+    right: 22px;
+}
+.contactBoxText{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.seconderyTitle{
+    font-weight: bold;
+}
+.contactBox>a{
+    color: blue;
+}
+.contactBox>a:hover{
+    color: #005CA0;
+}
