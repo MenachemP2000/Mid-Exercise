@@ -331,15 +331,53 @@ a{
     box-sizing: border-box;
     justify-content: center;
 }
-#sideBar>a{
-    background:url(side_menu_sprite.png);
-    width: 122px;
-    box-sizing: border-box;
-    padding-left: 50px;
-}
 #center{
     width: 50%;
 }
 #leftBoxes{
-    width: 40%
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
 }
+#sidebar>ul{
+    list-style: none;
+}
+#sideBar >ul>li{
+    box-sizing: border-box;
+    width:122px;
+    height: 36px;
+    position: relative;
+    left: 12px;
+    top: 10px;
+
+}
+#sideBar>ul>li>a{
+    display: block;
+    color: rgb(87, 87, 87);
+    width:122px;
+    height: 36px;
+    background: url(side_menu_sprite.png);
+    font-size: 13px;
+}
+#sideBar>ul>li>a:hover{
+    color: #005CA0;
+}
+.contactBox{
+    display: flex;
+    flex-direction: column;
+    background: url(small_cube_bg.png);
+    width: 292px;
+    height: 175px;
+    box-sizing: border-box;
+    margin-right: 6px;
+    margin-left: 6px;
+    color: rgb(87, 87, 87);
+
+}
+#linkToContant{
+    position: relative;
+    top: 8px;
+    right: 12px;
+}
+
